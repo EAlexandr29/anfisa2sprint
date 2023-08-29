@@ -24,7 +24,7 @@ class Topping(PublishedModel):
 
     class Meta:
         verbose_name = 'топпинг'
-        verbose_name_plural = 'топпинги'
+        verbose_name_plural = 'Топпинги'
 
     def __str__(self):
         return self.title
@@ -35,7 +35,7 @@ class Wrapper(PublishedModel):
 
     class Meta:
         verbose_name = 'обёртка'
-        verbose_name_plural = 'обёртки'
+        verbose_name_plural = 'Обёртки'
 
     def __str__(self):
         return self.title
@@ -63,7 +63,7 @@ class IceCream(PublishedModel):
 
     class Meta:
         verbose_name = 'мороженое'
-        verbose_name_plural = 'мороженое'
+        verbose_name_plural = 'Мороженое'
 
     def __str__(self):
         return self.title
